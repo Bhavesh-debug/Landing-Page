@@ -13,8 +13,48 @@
     
     
     .info{
-        height: 350px;
+        
         background-color: #dbded9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 200px;
+    }
+    .info-title{
+        color: #171915;
+        padding: 20px 0;
+        font-weight: 800;
+        font-size: 27px;
+        padding-bottom: 60px;
+    }
+    .ducks p, .ducks b{
+        color: #171915;
+    }
+    .ducks p{
+        padding: 15px 0px;
+    }
+
+    .duckpic{
+        height:130px ;
+        width:140px ;
+        border: 4px solid #4f7dc7;
+        border-radius: 7px;    
+    }
+    .duckpic img{
+        width: 100%;
+        height: 100%;
+    }
+    .profile{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ducks{
+        display: flex;
+        flex-direction: column;
+        max-width: 150px;
+        text-align: center;
     }
     .comments{
         height: 300px;
@@ -84,10 +124,7 @@
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
     }
-    
-    
-    
-    
+        
     
     
     
